@@ -19,7 +19,7 @@ func NewTaskHandler() *taskHandler {
 }
 
 func (th *taskHandler) AddTask(w http.ResponseWriter, r *http.Request) {
-	log.Printf("handling task create at %s\n", r.URL.Path)
+	log.Printf("handling add task at %s\n", r.URL.Path)
 
 	// Types used internally in this handler to (de-)serialize
 	// the request and response from/to JSON.
