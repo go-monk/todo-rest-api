@@ -63,3 +63,5 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8080", mux))
 }
 ```
+
+This is based on: https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library
